@@ -1,0 +1,175 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: #e3e3e3;
+}
+.container{
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    /* border: solid red 5px; */
+    margin-bottom: 10px;
+
+}
+nav{
+    background-color: #089de3;
+}
+nav > a{
+    color: #ffff;
+    font-size: 30px;
+    text-decoration: none;
+    padding: 10px 10px 10px 30px ;
+    float: left;
+}
+.navbar > ul{
+    list-style: none;
+    float: right;
+
+}
+
+.navbar > ul > li{
+    display: inline-block;
+    line-height: 60px;
+    padding: 0px 20px;
+
+}
+.navbar > ul:last-child{
+    padding-right: 100px;
+}
+.navbar > ul > li > a{
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+}
+.navbar > ul > li:hover{
+    background-color: #111111;
+}
+nav::after{
+    content: " ";
+    display: block;
+    clear: both;
+    *zoom: 1;
+}
+
+
+/* banner ke liye css */
+.main-banner{
+    height: 400px;
+}
+.main-banner > img{
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+
+
+/* services */
+.service{
+    background-color: white;
+
+}
+.service > h1{
+    font-size: 30px;
+    text-align: center;
+    padding: 30px;
+}
+.col{
+    width: 300px;
+    text-align: center;
+    margin-left: 20px;
+    border-right: solid #bebebe 1px;
+    padding-bottom: 30px;
+    float: left;
+}
+.col:last-child{
+    border-right: none;
+}
+.col > h3{
+    padding: 10px 10px;
+    color: grey;
+}
+.col > p{
+    padding-bottom: 20px;
+}
+.col > a{
+    background-color: #089de3;
+    color: white;
+    font-size: 17px;
+    text-decoration: none;
+    border: solid white 2px;
+    padding: 5px 10px;
+    border-radius: 20px;
+}
+
+.col > a:hover{
+    background-color: black;
+    border: solid #111111 2px;
+}
+.service::after{
+    content: " ";
+    display: block;
+    clear: both;
+    *zoom: 1;
+}
+
+
+/* costomer ke liye css  */
+.costomer{
+    background-color: #089de3;
+    min-height: 300px;
+    text-align: center;
+    padding: 20px ;
+    color: white;
+}
+.costomer > h1{
+    font-size: 30px ;
+    padding-bottom: 20px;
+}
+.costomer > img {
+    border: solid 2px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    object-fit: cover;
+}
+
+
+.costomer > p{
+    font-size: 18px;
+    margin: 10px 200px;
+    padding-bottom: 10px;
+    line-height: 25px;
+}
+
+.costomer > a{
+    color: #fff;
+    font-size: 17px;
+    text-decoration: none;
+    border: solid white 1px ;
+    padding: 5px 20px;
+}
+.costomer > a:hover{
+    background-color: #111111;
+    border: solid white 1px;
+}
+
+footer{
+    background-color: #111111;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    padding: 10px;
+}
+footer > small{
+    color: white;
+    font-size: 17px;
+    
+}
+footer > small >a{
+    text-decoration: none;
+    color: white;
+
+}
